@@ -1,0 +1,4 @@
+/zenv
+/script/__pycache__
+/dataset/*
+/api/__pycache__

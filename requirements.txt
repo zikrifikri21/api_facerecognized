@@ -1,0 +1,6 @@
+Flask
+opencv-python
+opencv-python-headless
+numpy
+opencv-contrib-python
+tensorflow==2.12.0
