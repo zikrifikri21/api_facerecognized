@@ -1,3 +1,2 @@
-0:freya
-1:lulu
-2:zikri
+0:lulu
+1:freya

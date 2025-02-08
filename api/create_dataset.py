@@ -19,8 +19,8 @@ def create():
     if not person_name or not images:
         return jsonify({'error': 'Name and images are required'}), 400
 
-    manager = FaceDatasetManager(dataset_path='../dataset/')
-    source_folder = os.path.join(os.path.abspath(os.path.join(os.path.dirname(__file__), '../')), 'dataset/temp_upload')
+    manager = FaceDatasetManager(dataset_path='/app/dataset/')
+    source_folder = os.path.join(os.path.abspath(os.path.join(os.path.dirname(__file__), '/app/')), 'dataset/temp_upload')
     os.makedirs(source_folder, exist_ok=True)
 
     feedback = []

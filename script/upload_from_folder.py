@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 
 class FaceDatasetManager:
-    def __init__(self, dataset_path='../dataset/', model_path='../models/face_recognizer.xml'):
+    def __init__(self, dataset_path='app/dataset/', model_path='models/face_recognizer.xml'):
         self.dataset_path = dataset_path
         self.model_path = model_path
         os.makedirs(self.dataset_path, exist_ok=True)
