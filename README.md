@@ -1,7 +1,25 @@
-py -m venv zenv
+# INSTALLATION
+
+## create environmen
+```bash
+python -m venv you_venv
+```
+
+## activate your environmen
+```bash
+.\you_venv\Scripts\activate
+```
+
+## install dependensi
+```bash
+python -m pip install -r .\requirements.txt
+```
+
+## create path of dataset
+```bash
+mkdir dataset
+```
 
 
-zenv/Scripts/activate
-
-
-py -m pip install opencv-python
+<hr/>
+Never Stop Learn🔥
